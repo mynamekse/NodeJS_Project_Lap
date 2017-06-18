@@ -1,0 +1,19 @@
+{
+  "name": "oauth-project",
+  "version": "1.0.0",
+  "description": "NodeJS_Project_Lap",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mynamekse/NodeJS_Project_Lap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mynamekse/NodeJS_Project_Lap/issues"
+  },
+  "homepage": "https://github.com/mynamekse/NodeJS_Project_Lap#readme"
+}
