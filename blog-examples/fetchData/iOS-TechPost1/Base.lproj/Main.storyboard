@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOS_TechPost1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Lk-Mp-zXV">
+                                <rect key="frame" x="20" y="161" width="560" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="fII-RZ-Xa9"/>
+                                </constraints>
+                                <state key="normal" title="Fetch Movies"/>
+                                <connections>
+                                    <action selector="btnFetchMoviesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h5H-du-NK1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGj-Pr-Erw">
+                                <rect key="frame" x="20" y="85" width="560" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="d2h-C8-cay"/>
+                                </constraints>
+                                <state key="normal" title="Fetch Music"/>
+                                <connections>
+                                    <action selector="btnFetchMusicPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M6g-DX-MRw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRi-tC-kes">
+                                <rect key="frame" x="20" y="20" width="560" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="TTe-wc-JAs"/>
+                                </constraints>
+                                <state key="normal" title="blog.hyphe.me"/>
+                                <connections>
+                                    <action selector="btnOpenHypheBlogPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qYT-at-0je"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3F-dW-ua2">
+                                <rect key="frame" x="20" y="123" width="560" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Wur-Wk-vtS"/>
+                                </constraints>
+                                <state key="normal" title="Fetch Books"/>
+                                <connections>
+                                    <action selector="btnFetchBooksPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y5K-Jp-1EQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iL4-a6-ubI">
+                                <rect key="frame" x="20" y="199" width="560" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="FmL-FD-ATV"/>
+                                </constraints>
+                                <state key="normal" title="Fetch Albums"/>
+                                <connections>
+                                    <action selector="btnFetchAlbumsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2He-EM-5Lv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iL4-a6-ubI" firstAttribute="top" secondItem="6Lk-Mp-zXV" secondAttribute="bottom" constant="8" symbolic="YES" id="03E-mq-vnN"/>
+                            <constraint firstItem="iL4-a6-ubI" firstAttribute="leading" secondItem="6Lk-Mp-zXV" secondAttribute="leading" id="2oP-uA-72D"/>
+                            <constraint firstItem="bGj-Pr-Erw" firstAttribute="top" secondItem="fRi-tC-kes" secondAttribute="bottom" constant="35" id="5wN-xc-HLh"/>
+                            <constraint firstItem="6Lk-Mp-zXV" firstAttribute="top" secondItem="V3F-dW-ua2" secondAttribute="bottom" constant="8" id="Dyz-O9-RbA"/>
+                            <constraint firstItem="V3F-dW-ua2" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="G5f-sH-Ax6"/>
+                            <constraint firstItem="bGj-Pr-Erw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ILv-1b-aHc"/>
+                            <constraint firstItem="6Lk-Mp-zXV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="OHC-O7-q38"/>
+                            <constraint firstItem="fRi-tC-kes" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="XND-vG-fUV"/>
+                            <constraint firstItem="fRi-tC-kes" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="bop-47-4R0"/>
+                            <constraint firstItem="6Lk-Mp-zXV" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="enG-HG-vJV"/>
+                            <constraint firstItem="fRi-tC-kes" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="hkj-8O-b5a"/>
+                            <constraint firstItem="iL4-a6-ubI" firstAttribute="trailing" secondItem="6Lk-Mp-zXV" secondAttribute="trailing" id="nR8-BG-9pe"/>
+                            <constraint firstItem="bGj-Pr-Erw" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="od5-VT-g7y"/>
+                            <constraint firstItem="V3F-dW-ua2" firstAttribute="top" secondItem="bGj-Pr-Erw" secondAttribute="bottom" constant="8" id="wWY-WD-yjk"/>
+                            <constraint firstItem="V3F-dW-ua2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="weR-Gu-IzD"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="154" y="449"/>
+        </scene>
+    </scenes>
+</document>

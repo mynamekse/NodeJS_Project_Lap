@@ -1,0 +1,17 @@
+[
+  {
+    "id"    : 1,
+    "title" : "Movie A",
+    "genre" : "Drama"
+  },
+  {
+    "id"    : 2,
+    "title" : "Movie B",
+    "genre" : "Myth"
+  },
+  {
+    "id"    : 3,
+    "title" : "Movie C",
+    "genre" : "Satire"
+  }
+]

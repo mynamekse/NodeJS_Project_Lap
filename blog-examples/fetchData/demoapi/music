@@ -1,0 +1,20 @@
+[
+  {
+    "id"    : 1,
+    "title" : "Music A",
+    "albumName" : "AlbumName A",
+    "genre" : "Rock & Roll"
+  },
+  {
+    "id"    : 2,
+    "title" : "Music B",
+    "albumName" : "AlbumName B",
+    "genre" : "Metal"
+  },
+  {
+    "id"    : 3,
+    "title" : "Music C",
+    "albumName" : "AlbumName C",
+    "genre" : "Soundtrack"
+  }
+]

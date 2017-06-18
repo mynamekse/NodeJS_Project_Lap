@@ -1,0 +1,37 @@
+[{
+    "id": 1,
+    "title": "Music A",
+    "albumName": "AlbumName A",
+    "genre": "Rock & Roll",
+    "tracks": [{
+	      "id":1,
+        "name": "TitleA1",
+        "runtime": "4:21"
+    }, {
+        "id":2,
+        "name": "TitleB1",
+        "runtime": "3:11"
+    }, {
+        "id":3,
+        "name": "TitleC1",
+        "runtime": "2:51"
+    }]
+}, {
+    "id": 2,
+    "title": "Music B",
+    "albumName": "AlbumName B",
+    "genre": "Metal",
+    "tracks": [{
+        "id":4,
+        "name": "TitleA2",
+        "runtime": "4:22"
+    }, {
+        "id":5,
+        "name": "TitleB2",
+        "runtime": "3:12"
+    }, {
+        "id":6,
+        "name": "TitleC2",
+        "runtime": "2:52"
+    }]
+}]

@@ -1,0 +1,16 @@
+{
+  "libs": [
+  ],
+  "loadEagerly": [
+    "lib/**/*.js",
+    "tests/**/*.js"
+  ],
+  "plugins": {
+    "complete_strings": {},
+    "node": {},
+    "lint": {},
+    "doc_comment": {
+     "fullDocs": true
+    }
+  }
+}
